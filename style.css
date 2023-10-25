@@ -1,0 +1,99 @@
+* {
+  /* margin: 0; */
+  /* padding: 0; */
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Press Start 2P", cursive;
+  color: white;
+  background-color: #2d3436;
+  text-align: center;
+}
+
+h1 {
+  padding-top: 1rem;
+}
+
+#p1 {
+  padding-top: 1rem;
+}
+
+.secret {
+  border: 3px solid white;
+  width: 245px;
+  height: 93px;
+  margin: auto;
+  margin-bottom: 3.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+}
+.inputs {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+input {
+  width: 416px;
+  height: 3.5rem;
+  margin-bottom: 1rem;
+}
+
+#number {
+  text-align: center;
+  font-size: 1.5rem;
+  font-family: "Press Start 2P", cursive;
+}
+#button {
+  font-size: 1.5rem;
+  font-family: "Press Start 2P", cursive;
+  background-color: #2d3436;
+  color: white;
+  border: 3px solid white;
+  border-radius: 5px;
+}
+
+input[value="Again"] {
+  border: 3px solid white;
+  background-color: #2d3436;
+  font-family: "Press Start 2P", cursive;
+  color: white;
+  width: 20rem;
+  margin-top: 2rem;
+  border-radius: 5px;
+  font-size: 1.5rem;
+}
+
+#checkBtn {
+  font-size: 1.5rem;
+  font-family: "Press Start 2P", cursive;
+  background-color: #2d3436;
+  color: white;
+  border: 3px solid white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#checkBtn:hover {
+  color: black;
+  background-color: white;
+}
+
+#again:hover {
+  color: black;
+  cursor: pointer;
+  background-color: white;
+}
+
+@media screen and (max-width: 992px) {
+  .inputs {
+    flex-direction: column;
+  }
+  .inputs > input {
+    width: 477px;
+  }
+}

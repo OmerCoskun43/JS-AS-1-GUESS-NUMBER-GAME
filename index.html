@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=DynaPuff&family=Open+Sans:wght@600&family=Press+Start+2P&family=Satisfy&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>GUESS MY NUMBER</h1>
+    <p id="p1">Secret Number:</p>
+    <div class="secret">
+        ?
+    </div>
+    <hr><br>
+    <p>Select a number between 1-100</p>
+    <div class="inputs">
+        <input type="number" min="1" max="100" name="" id="number">
+        <input type="button" value="Check" id="checkBtn">
+    </div>
+    <p id="starts">Starting...</p>
+    <p> <i class="fa-solid fa-hashtag fa-2x"></i> Score: <span id="span1">10</span></p>
+    <p><i class="fa-solid fa-award fa-2x"></i> Top Score <span id="span2">0</span></p>
+    <input type="button" value="Again" id="again">
+
+
+
+    <script src="./app.js"></script>
+</body>
+
+</html>
